@@ -1,0 +1,27 @@
+answer="yes"
+while answer=="yes":
+    str1= input("whats your name?")
+    print("welcome ! to this mini quiz game developed by pranndev")
+    score= 0
+    question1= input("1.what is 2+2+2÷2=")
+    if question1== "5" :
+        print("your answer is correct!")
+        score=score+1
+    else :
+        print("your answer is wrong!")
+    question2= input("2. by what programming language this game is built? ans-")
+    if question2== "python" or question2=="py" :
+        print("your answer is correct!")
+        score=score+1
+    else:
+        print("your answer is wrong!")
+    question3= input("3.what is the jersey number of ronaldo?ans-")
+    if question3== "7" or question3=="seven":
+        print("your answer is correct")
+        score= score+1
+    else:
+        print("your answer is wrong!")
+    print("your final score is:", score)
+    answer=input("do you want to play the game again?")
+
+        
